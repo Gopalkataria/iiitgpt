@@ -1,0 +1,59 @@
+ /* body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Irish Grover', sans-serif;
+     background-color: #3D281E;
+     color: #00FF00;
+ }
+
+ #chat-box {
+     width: 90%;
+     max-width: 400px;
+     margin: 50px auto;
+     background-color: #e4e4e4;
+     padding: 20px;
+     border-radius: 10px;
+ }
+
+ #header {
+     text-align: center;
+ }
+
+ h1 {
+     margin: 0;
+ }
+
+ #message-container {
+     margin-top: 20px;
+     max-height: 200px;
+     overflow-y: auto;
+ }
+
+ #message-input {
+     width: calc(100% - 20px);
+     margin-top: 10px;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     outline: none;
+ }
+
+ .chat-bubble {
+     padding: 10px;
+     border-radius: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .user-bubble {
+     background-color: #00FF00;
+     color: #000;
+     text-align: right;
+ }
+
+ .bot-bubble {
+     background-color: #1C1C1C;
+     color: #e4e4e4;
+     text-align: left;
+ }
+
+ Add your additional styles for the chat interface here */
