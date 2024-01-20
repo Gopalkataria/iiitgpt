@@ -1,0 +1,15 @@
+# Mock Placement Data (YYYY-YY)
+
+# Company Name | Number of Offers | Highest Package (LPA) | Average Package (LPA)
+----------------|-------------------|--------------------------|--------------------------
+Google         | 25                | 45                       | 30
+Microsoft      | 18                | 42                       | 28
+Amazon         | 15                | 38                       | 26
+Adobe          | 12                | 35                       | 24
+Goldman Sachs  | 10                | 32                       | 22
+# ... More companies
+
+# Overall Placement Statistics
+Total Offers:      150
+Highest Package:   45 LPA
+Average Package:   27 LPA
