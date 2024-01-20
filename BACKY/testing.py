@@ -2,6 +2,10 @@ import sentence_transformers
 from transformers import AutoModel, AutoTokenizer
 import numpy as np
 
+from summarizer import Summarizer
+
+smodel = Summarizer()
+
 # model_name = "all-mpnet-base-v2"
 
 model = sentence_transformers.SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
@@ -44,6 +48,9 @@ print( sentences[0] )
 embeddings = model.encode(sentences)
 
 print("Embeddings generated successfully")
+
+def summarize_text(text):
+    return smodel(text)
 
 def handle_query(query):
     query = preprocess_text(query)
