@@ -22,12 +22,15 @@
                     <div class="card-header">
                         <h1 class="text-center">BondBot</h1>
                     </div>
-                    <div class="card-body" id="message-container">
+                    <div class="card-body " id="message-container">
                         <!-- Messages will appear here -->
                     </div>
                     <div class="card-footer">
-                        <input type="text" class="form-control" id="message-input" placeholder="Type your message..."
-                            onkeypress="handleKeyPress(event)">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="message-input" placeholder="Type your message..."
+                                onkeypress="handleKeyPress(event)">
+                            <button class="btn btn-primary" id="go-button" onclick="sendMessage()">Go</button>
+                        </div>
                     </div>
                 </div>
             </div>

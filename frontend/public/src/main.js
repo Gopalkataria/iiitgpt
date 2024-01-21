@@ -15,7 +15,7 @@ function sendMessage() {
 
     // Create a chat bubble for user message
     var userBubble = document.createElement('div');
-    userBubble.className = 'chat-bubble user-bubble';
+    userBubble.className = 'chat-bubble you row col-6 offset-6';
     userBubble.textContent = userMessage;
 
     // Append the user message bubble to the message container
@@ -26,9 +26,11 @@ function sendMessage() {
 
     // For now, let's add an empty chat bubble for the chatbot response
     var botBubble = document.createElement('div');
-    botBubble.className = 'chat-bubble bot-bubble';
-    botBubble.textContent = ''; // Leave it empty for now
+    botBubble.className = 'chat-bubble me row col-6 offset-right-6';
+    botBubble.textContent = 'meow meow '; // Leave it empty for now
 
     // Append the chatbot response bubble to the message container
     messageContainer.appendChild(botBubble);
+    messageContainer.scrollTop = messageContainer.scrollHeight;
 }
+
